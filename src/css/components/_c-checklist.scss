@@ -154,6 +154,7 @@ $_checklist-padding: 1.5rem;
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
 	text-transform: uppercase;
@@ -161,7 +162,7 @@ $_checklist-padding: 1.5rem;
 
 
 .c-checklist__description {
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	line-height: $line-height-looser;
 	margin-top: 0.75rem;
 	padding-right: $_checklist-padding;

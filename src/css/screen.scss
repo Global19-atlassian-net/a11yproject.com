@@ -43,6 +43,7 @@
 	"logic/variables.animation-easing",
 	"logic/variables.borders",
 	"logic/variables.font-families",
+	"logic/variables.font-sizes",
 	"logic/variables.font-tracking",
 	"logic/variables.font-weights",
 	"logic/variables.line-heights",
@@ -150,6 +151,7 @@
 //
 // Styleguide Utilities
 @import
+	"utilities/font-sizes",
 	"utilities/hide",
 	"utilities/preserve-list-semantics",
 	"utilities/spacing",
